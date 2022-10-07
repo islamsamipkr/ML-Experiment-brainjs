@@ -1,5 +1,5 @@
 const input = document.querySelector("input")
-const example = document.querySelector("#example")
+const example = document.querySelector("#example") 
 
 input.addEventListener("change", (e) => {
   const rgb = getRgb(e.target.value);
