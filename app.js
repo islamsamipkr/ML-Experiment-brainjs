@@ -3,7 +3,7 @@ const example = document.querySelector("#example")
   
 input.addEventListener("change", (e) => {
   const rgb = getRgb(e.target.value); 
-  const network = new brain.NeuralNetwork()
+  const network = new brain.NeuralNetwork() 
   console.log(rgb);
   network.train([
     { input: { r: 0.62, g: 0.72, b: 0.88 }, output: { light: 1 } },  
